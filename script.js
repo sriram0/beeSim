@@ -56,10 +56,13 @@ function draw(){
     textFont("fantasy");
     fill(255, 0, 0);
     textSize(50);
-    text("Happy Birthday!", 400, 200);
+    text("Happy Birthday!", 400, 190);
     fill(0, 100, 100);
-    textSize(20);
+    textSize(30);
     text("Amma & Jeen Aunty", 400, 250);
+    fill(0, 250, 0);
+    textSize(25);
+    text("31 is the 11th prime number!\n32 is the 5th power of 2", 400, 50);
     push();
     translate(-200, 0);
     flower();
